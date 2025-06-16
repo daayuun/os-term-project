@@ -1,6 +1,6 @@
 # 🧠 Multi-Process Scheduler with Paging (C++)
 
-이 프로젝트는 운영체제 핵심 개념인 **프로세스 스케줄링(Round-Robin)**과 **가상 메모리(Demand Paging)**를 직접 구현한 시뮬레이터입니다.  
+이 프로젝트는 운영체제 핵심 개념인 프로세스 스케줄링(Round-Robin)과 가상 메모리(Demand Paging)를 직접 구현한 시뮬레이터입니다.  
 `g++`로 컴파일된 단일 C++ 파일로, 다중 프로세스를 시뮬레이션하고 각 프로세스에 독립적인 페이지 테이블을 할당하여 **VA→PA 변환 및 Page Fault 처리**를 구현합니다.
 
 ---
